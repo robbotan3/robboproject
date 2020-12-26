@@ -14,5 +14,5 @@ def ping_test (host):
 
     print("{} is reachable".format(reached))
     print("{} not reachable".format(not_reached))
-hosts = ["192.168.1.1","123.214.2.2","www.google.com",]         #Hosts list
+hosts = ["192.168.1.1","123.214.2.2","www.google.com","www.apple.com",]         #Hosts list
 ping_test (hosts)
